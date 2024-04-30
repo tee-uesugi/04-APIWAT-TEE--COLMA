@@ -61,14 +61,16 @@ header img {
     img {
         width: 60%;
         padding-top: 32px;
-        margin-left: 24px;
+        margin-left: 24px; 
     }
 
     .hero-first {
         display: flex;
         max-width: 250px;
         flex-direction: column;
-        margin: 24px;
+        margin-left: 24px;
+
+    
 
         h1 {
             margin-top: 24px;
@@ -92,4 +94,162 @@ header img {
             font-weight: 700;
         }
     }
+}
+
+#information {
+    display: flex;
+    background-color: white;
+    max-width: 1280px;
+    margin: auto;
+    #info1 {
+        display: flex;
+        width: 60%;
+        padding: 32px 24px;
+        flex-direction:column;
+        align-items: flex-start;
+        border-right: 2px solid #e2e4e4;
+
+        img {
+            width:100%;
+        }
+        h2 {
+            margin-top: 32px;
+            margin-bottom: 24px;
+        }
+        .end-of-info1 {
+            margin-top: 40px;
+            font-size: 0.75rem;
+        }
+    }
+    #info2 {
+        display: flex;
+        width: 40%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        img {
+            width: 35%;
+            height: auto;
+            max-width: 100%;
+        }
+        div {
+            padding: 16px 16px 16px 16px;
+            display: flex;
+            align-content: center;
+
+        }
+        div div {
+            width: 65%;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        #info2-color {
+            background-color: #d8d8d8;
+          }
+        
+        .info2-text {
+            display: flex;
+            padding-left: 20px;
+            h2 {
+                margin-bottom: 8px;
+                font-size: 0.95rem;
+            }
+            p {
+                margin-bottom: 8px;
+                font-size: 0.85rem;
+            }
+            .read-more {
+                font-size: 0.75rem;
+                color: #7ea3d1;
+              }
+        }
+
+    }
+    
+
+}
+
+.course {
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     padding: 32px 0px 32px 0px;
+     background-color: #eaebec;
+     max-width: 1280px;
+     margin: 0 auto;
+    h2 {
+        margin: 0px auto 32px auto;
+        font-size: 32px;
+     }
+    #text1 {
+        display: flex;
+        width: calc(100% - 144px);
+        margin-bottom: 32px;
+        margin-left: 72px;
+        margin-right: 72px;
+        justify-content: space-between;
+
+        div {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            background-color: white;
+
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+     }
+    
+
+    #text1-cen {
+        margin-left: 32px;
+        margin-right: 32px;
+    }
+
+    #text2 {
+        display: flex;
+        width: calc(100% - 144px);
+        margin-left: 72px;
+        margin-right: 72px;
+        justify-content: space-between;
+
+        div {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            background-color: white;
+            max-width: 400px;
+
+            img {
+                 width: 100%;
+                 height: auto;
+            }
+        }
+    #text2-cen {
+        margin-left: 32px;
+        margin-right: 32px;
+     }
+
+
+    }
+
+    .learning {
+        text-align: left;
+        padding: 16px 16px 16px 16px;
+
+        h2 {
+            margin-bottom: 16px;
+            font-size: 1.25rem;
+        }
+
+        p {
+            margin-top: 8px;
+            margin-bottom: 8px;
+            font-size: 0.75rem;
+        }
+      }
 }
